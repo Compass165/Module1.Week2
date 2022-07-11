@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework1</title>
+</head>
+<body>
+<script>
+    let inputPhysics
+    let inputMath
+    let inputChemistry
+
+    inputPhysics = prompt("Nhập điểm Lý")
+    inputMath = prompt("Nhập điểm Toán")
+    inputChemistry = prompt('Nhập điểm Hóa')
+    let Physics = parseInt(inputPhysics)
+    let Math = parseInt(inputMath)
+    let Chemistry = parseInt(inputChemistry)
+    let sum = (Physics + Math + Chemistry)/3
+
+    document.write('Điểm Lý là: ' + Physics)
+    document.write('</br>')
+    document.write('Điểm Toán là: ' + Math)
+    document.write('</br>')
+    document.write('Điểm Hóa là: ' + Chemistry)
+    document.write('</br>')
+    document.write('Điểm trung bình cả ba môn là: ' + sum);
+</script>
+</body>
+</html>

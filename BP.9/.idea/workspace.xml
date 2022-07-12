@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45dc67d4-c34d-4e79-95c0-43c80c15856a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../BP.6/LythuyetJS" beforeDir="false" afterPath="$PROJECT_DIR$/../BP.6/LythuyetJS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BP.7/Homework2/TransferMoney.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BP.7/Homework2/TransferMoney.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BP.7/Homework2/TransferMoney.js" beforeDir="false" afterPath="$PROJECT_DIR$/../BP.7/Homework2/TransferMoney.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BP.7/Practice/Practice1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BP.7/Practice/Practice1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BP.7/Practice/Practice2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../BP.7/Practice/Practice2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PT1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PT1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PT2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PT2.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Bqcvz3wvTRQU1LbcLounV99ipF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45dc67d4-c34d-4e79-95c0-43c80c15856a" name="Changes" comment="" />
+      <created>1657637292519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657637292519</updated>
+      <workItem from="1657637295150" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -4,7 +4,57 @@
     <meta charset="UTF-8">
     <title>% Hoa hồng</title>
 </head>
-<body>
 
+<body>
+    <label>
+        <input type="number" name="pd" id="pd" placeholder="Nhập số lượng sản phẩm" style="width: 50%">
+    </label>
+    <br><br>
+    <label>
+        <input type="number" name="pr" id="pr" placeholder="Nhập giá tiền sản phẩm (VND)" style="width: 50%">
+    </label>
+    <br><br>
+    <button name="button" type="button" onclick="summision()">Tính %</button>
+    <br>
+    <h3><p id="rs1"></p></h3>
+    <h3><p id="rs2"></p></h3>
+
+<script>
+    function summision() {
+        // let a = +prompt("Nhập số Hoa hồng bán được", '');
+        // let price1 = 10000;
+        let Product = document.getElementById('pd').value;
+        let Price = document.getElementById('pr').value;
+        // let sum = (Product * Price + tips);
+        // let Product = number(document.getElementById('pd').value);
+        // let Price = number(document.getElementById('pr').value);
+        // let tips
+        // let sum = number((Product * Price + tips));
+        if (Product >= 0) {
+            if (Product <= 1) {
+                tips = (Product * Price) * (3 / 100);
+                let sum = (Product * Price + tips);
+                document.getElementById('rs1').innerHTML = tips + ' VND số tiền % của bạn';
+                document.getElementById('rs2').innerHTML = sum + ' VND là tổng số tiền bạn nhận được';
+            } else if (Product <= 3) {
+                tips = (Product * Price) * (7 / 100);
+                let sum = (Product * Price + tips);
+                document.getElementById('rs1').innerHTML = tips + ' VND số tiền % của bạn';
+                document.getElementById('rs2').innerHTML = sum + ' VND là tổng số tiền bạn nhận được';
+            } else if (Product <= 5) {
+                tips = (Product * Price) * (14 / 100);
+                let sum = (Product * Price + tips);
+                document.getElementById('rs1').innerHTML = tips + ' VND số tiền % của bạn';
+                document.getElementById('rs2').innerHTML = sum + ' VND là tổng số tiền bạn nhận được';
+            } else {
+                tips = (Product * Price) * (25 / 100);
+                let sum = (Product * Price + tips);
+                document.getElementById('rs1').innerHTML = tips + ' VND số tiền % của bạn';
+                document.getElementById('rs2').innerHTML = sum + ' VND là tổng số tiền bạn nhận được';
+            }
+        }
+    }
+
+</script>
 </body>
 </html>

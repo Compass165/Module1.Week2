@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính cước điện thoại</title>
+</head>
+<body>
+<p> - Tiền cước máy bàn (1000/1p) <br>
+- Tiền cước điện thoại của mẹ (1500/1p)<br>
+    - Tiền cước điện thoại của bố (250.000/tháng + phát sinh 20p (1p = 500vnd)<br>
+</p>
+<input type="number" placeholder="Số phút gọi máy bàn" id="mb" name="mb"><br>
+<input type="number" placeholder="Số phút gọi máy mẹ" id="mm" name="mm"><br>
+<input type="number" placeholder="Số phút gọi máy bố" id="mc" name="mc"><br>
+<!--<input readonly type="number" id="money" placeholder="Số tiền tháng này phải trả" style="width: 20%"></input>-->
+<p id="ios"></p>
+<button onclick="count()">Tính luôn!</button>
+</body>
+<script>
+  function count() {
+      let a = 1000;
+      let b = 1500;
+      let c = 250000;
+      let mb = document.getElementById('mb').value;
+      let mc = document.getElementById('mc').value;
+      let mm = document.getElementById('mm').value;
+      let result = (a * mb + b * mc + c * mm)
+      if (result >= 0) {
+          document.getElementById('ios').innerHTML = result + " VND là cái giá mà bạn phải trả"
+      }
+  }
+</script>
+</html>

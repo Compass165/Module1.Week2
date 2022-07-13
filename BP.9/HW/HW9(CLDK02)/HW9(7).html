@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ax^2 + by = 0</title>
+<body>
+<h2>Giải phương trình aX^2 + by = 0</h2>
+<p>Nhập a <br>
+  <input type="number" id="a" style="width: 10%" ></p>
+<p>Nhập b <br>
+  <input type="number" id="b" style="width: 10%"></p>
+<p>Nhập c <br>
+  <input type="number" id="c" style="width: 10%"></p>
+<button onclick="Calculator()">Tính</button>
+<br>
+<p id="result"></p>
+<script>
+  function Calculator(){
+    let a = document.getElementById('a').value;
+    let b = document.getElementById('b').value;
+    let c = document.getElementById('c').value;
+    let Delta = (b**2 - 4*(a * c))
+    let asus = (Delta > 0) ? "A": (Delta = 0) ? 'B': (Delta < 0) ? 'C':'D';
+    switch (asus){
+      case 'A':
+        document.getElementById('result').innerHTML = "Phương trình có 2 nghiệm là: x1 = " + (-b + Math.sqrt(Delta)) + " x2 = " + (-b - Math.sqrt(Delta));
+        break;
+      case 'B' :
+        document.getElementById('result').innerHTML = "Phương trình có nghiệm kép x1 = x2 = " + (-b)/ 2*(a);
+        break;
+      case "C" :
+        document.getElementById('result').innerHTML = "Phương trình vô nghiệm";
+        break;
+      case "D" :
+        document.getElementById('result').innerHTML = "Phương trình có nghiệm x = " + (-b/a);
+        break;
+    }
+  }
+</script>
+</body>
+
+</html>

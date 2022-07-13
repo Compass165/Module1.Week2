@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ax + b = 0</title>
+</head>
+<body>
+<h2>Giải phương trình aX + b = 0</h2>
+<p>Nhập a <br>
+  <input type="number" id="a" style="width: 10%" ></p>
+<p>Nhập b <br>
+  <input type="number" id="b" style="width: 10%"></p>
+<button onclick="Calculator()">Tính</button>
+<br>
+<p id="ios"></p>
+<script>
+    function Calculator(){
+        let a = document.getElementById('a').value;
+        let b = document.getElementById('b').value;
+        // if (a == 0 && b == 0) {
+        //     document.getElementById(Value).innerHTML = "Phương trình có vô số nghiệm"
+        // }
+        let S = (a == 0 && b == 0) ? "A": (a != 0 && b == 0) ? 'B': (a == 0 && b != 0) ? 'C':'D';
+        switch (S){
+            case 'A':
+                document.getElementById('ios').innerHTML = "Phương trình có vô số nghiệm";
+                break;
+            case 'B' :
+                document.getElementById('ios').innerHTML = "Phương trình có nghiệm x = 0";
+                break;
+            case "c" :
+                document.getElementById('ios').innerHTML = "Phương trình vô nghiệm";
+                break;
+            case "D" :
+                document.getElementById('ios').innerHTML = "Phương trình có nghiệm x = " + (-b/a);
+                break;
+        }
+    }
+</script>
+</body>
+
+</html>

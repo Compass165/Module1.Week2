@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>S chữ nhật</title>
+  <title>S tam giác vuông</title>
 </head>
 <body>
-<p>Nhập cạnh a <br>
+<p>Nhập cạnh kề a <br>
   <input type="number" id="a" style="width: 10%" ></p>
-<p>Nhập cạnh b <br>
+<p>Nhập cạnh kề b <br>
   <input type="number" id="b" style="width: 10%"></p>
 <button onclick="Transfer()">Tính</button>
 <p id="S"></p>
@@ -16,9 +16,9 @@
   function Transfer(){
     let a = document.getElementById('a').value;
     let b = document.getElementById('b').value;
-    S = a * b
+    S = (a * b) /2
     if (S) {
-      document.getElementById('S').innerHTML = "Diện tích hình chữ nhật là: " + S;}
+      document.getElementById('S').innerHTML = "Diện tích hình tam giác vuông là là: " + S;}
   }
 </script>
 </html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính số tuổi nguyên</title>
+</head>
+<body>
+<p>Nhập số tuổi <br>
+    <input type="number" id="a" style="width: 10%" ></p>
+    <button onclick="Calculator()">Tính</button>
+<br>
+<p id="result"></p>
+</body>
+<script>
+function Calculator() {
+    let A = document.getElementById('a').value;
+    let old = parseInt(A)
+    if (old > 0 && old < 120) {
+        document.getElementById('result').innerHTML = 'số tuổi chính xác là: ' + old;
+    }
+}
+</script>
+</html>

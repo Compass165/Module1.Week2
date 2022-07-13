@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>m -> feet</title>
+</head>
+<body>
+<input id="C"; style="width: 20%">
+<button onclick="transfer()">Transfer</button>
+<p id="T"></p>
+</body>
+<script>
+function transfer(){
+let m = document.getElementById('C').value;
+let feet = m * 3.2808;
+document.getElementById('T').innerHTML = feet + 'feet là độ dài đã chuyển đổi';
+}
+</script>
+</html>

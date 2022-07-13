@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>C->F</title>
 </head>
-<body>
-$END$
+<body><p>Nhập độ C</p>
+<input id="C"; style="width: 20%">
+<button onclick="transfer()">Transfer</button>
+<p id="T"></p>
 </body>
+<script>
+    function transfer(){
+        let C = document.getElementById('C').value;
+        let F = (C * (9/5) + 32);
+        // console.log(F)
+               document.getElementById('T').innerHTML = F + ' Là độ F đã chuyển đổi';
+    }
+            // document.getElementById('C').innerHTML.value += F + ' là nhiệt độ đã transfer!'
+</script>
 </html>

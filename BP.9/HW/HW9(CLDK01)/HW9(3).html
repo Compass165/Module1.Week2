@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>a > 0 || a < 0</title>
+</head>
+<body>
+<script>
+    let a = +prompt('Vẫn cứ là nhập số a', '');
+    let N = (a > 0)?'>':(a < 0)?'<':'=';
+    switch (N){
+        case '>':
+            alert('a > 0');
+            break;
+        case '<':
+            alert('a < 0');
+            break;
+        case '=':
+            alert('a = 0');
+            break;
+        default:
+            alert('Ảo thật đấy');
+            break;
+    }
+</script>
+</body>
+</html>

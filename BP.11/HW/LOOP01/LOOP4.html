@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let fbnc
+    let a = -1
+    let b = 1
+    for (fbnc = 0; fbnc <= 20; fbnc++) {
+        fbnc = a + b;
+        document.write(fbnc + '<br>');
+        a = b;
+        b = fbnc;
+        while (fbnc%5 == 0) {
+            alert(fbnc);
+            break;
+        }
+    }
+</script>
+</body>
+</html>

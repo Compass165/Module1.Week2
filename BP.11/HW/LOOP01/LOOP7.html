@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FizzBuzz</title>
+</head>
+<body>
+<h3 id="Fizz"></h3>
+<h3 id="Buzz"></h3>
+<h3 id="FizzBuzz"></h3>
+<script>
+  // let i = 1;
+  // let f="";
+  // let b='';
+  // let fb='';
+  // for (i; i <= 100; i++) {
+  //   if (i % 3 == 0){
+  //       f += i + ', ';
+  //   }
+  //   else if (i % 5 == 0){
+  //       b += i + ', ';
+  //   }
+  //   if (i % 3 == 0 && i % 5 == 0) {
+  //       fb += i + ', ';
+  //   }
+  //     document.getElementById("Fizz").innerHTML= 'Fizz la: ' + f +"<br>"
+  //     document.getElementById("Buzz").innerHTML= 'Buzz la: ' + b +"<br>"
+  //     document.getElementById("FizzBuzz").innerHTML= 'FizzBuzz la: ' + fb +"<br>"
+  // }
+  let num;
+  for (num = 1; num <= 100; num++) { // 99 vẫn đúng
+      if (num % 3 == 0 && num % 5 !== 0) {
+          document.write("Fizz" + "<br>");
+          continue;
+      } else if (num % 5 == 0 && num % 3 !== 0) {
+          document.write("Buzz" + "<br>");
+          continue;
+      } else if (num % 3 == 0 && num % 5 == 0) {
+          document.write("FizzBuzz" + "<br>");
+          continue;
+      }
+      document.write (num + "<br>");
+  }
+</script>
+</body>
+</html>

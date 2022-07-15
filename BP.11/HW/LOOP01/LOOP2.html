@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tăng giảm nhiệt độ</title>
+</head>
+<body>
+<script>
+    let C = prompt('Nhập nhiệt độ hiện tại vào đây ', '');
+  //
+  // if (C >= 0 && C <= 100) {
+  //     while (C) {
+  //         alert('Nhiệt độ thích hợp');
+  //         break;
+  //     }
+  // }
+  // else if (C < 0) {
+  //     alert('Tang nhiet do');
+  // }
+  // else {
+  //     alert('Giam nhiet do');
+  // }
+
+    while (C<0 || C>100)  {
+        if (C<0) {
+            alert("tang nhiet do");
+        }
+        else {alert('giam nhiet do');}
+        break;
+    }
+</script>
+</body>
+</html>

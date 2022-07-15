@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số nguyên tố</title>
+</head>
+<body>
+<script>
+   //  let count = 0
+   //  let N = +prompt();
+   // for (let j=1; j<N; j++) {
+   //      if (N%j==0) {
+   //          count += 1;
+   //      }
+   //  }
+   // if (count==1){
+   //     log(i);
+   // }
+
+   let check = true;
+   let N = +prompt();
+   for (j=2;
+        // j<N
+        // j<(n/2)
+        j<Math.sqrt(N)
+       ;j++){
+       if(N%j==0) {
+           check = false;
+           break;
+       }
+   }
+   if (check ==true){
+       long('i la so nguyen to');
+   }
+</script>
+</body>
+</html>

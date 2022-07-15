@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82920c7f-e456-4813-b7b9-c06ab73b90d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GiaithuasoN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP01/LOOP1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP01/LOOP2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP01/LOOP3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP01/LOOP4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP01/LOOP5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP01/LOOP6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP01/LOOP7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP01/LOOP8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP01/Test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP2/LP1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Songuyento.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vehinhvuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indayinbonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.10/PT/PT1(2).html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.10/PT/PT1(2).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.10/PT/PT1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.10/PT/PT1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.10/PT/PT2(2).html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.10/PT/PT2(2).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.10/PT/PT2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.10/PT/PT2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.10/PT/PT3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.10/PT/PT3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.10/PT/PT4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.10/PT/PT4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.10/PT/Test 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.10/PT/Test 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.10/PT/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.10/PT/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.10/PT/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.10/PT/Test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.10/PT/test 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.10/PT/test 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.6/LythuyetJS" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.6/LythuyetJS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.7/Homework2/TransferMoney.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.7/Homework2/TransferMoney.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.7/Homework2/TransferMoney.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.7/Homework2/TransferMoney.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.7/Practice/Practice1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.7/Practice/Practice1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.7/Practice/Practice2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.7/Practice/Practice2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.9/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.9/HW/HW3(Caculator).html" beforeDir="false" afterPath="$PROJECT_DIR$/../../BP.9/HW/HW3(Caculator).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.9/HW/HW9(CLDK01).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.9/PT1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.9/PT1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.9/PT2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BP.9/PT2.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ByGmrdVmdIYqh4o4bUvnzrcHvX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Webstorm/Module-1-master/week2/BP.11/HW&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82920c7f-e456-4813-b7b9-c06ab73b90d8" name="Changes" comment="" />
+      <created>1657871072613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657871072613</updated>
+      <workItem from="1657871073851" duration="551000" />
+      <workItem from="1657877968891" duration="3057000" />
+      <workItem from="1657905697714" duration="315000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài 1</title>
+</head>
+<body>
+<script>
+  let num = +prompt("Nhập vào độ dài của dãy fibonacci:");
+  let m = 0;
+  let n = 1;
+  let fib;
+  let i = 0;
+  let phong=6.24354436346;
+document.write(m + '<br>');
+document.write(n + '<br>');
+  for (fib = 0; fib <= (num - 2) ; fib++) {
+    for (i = 1; i <= (num - 2); i++) {
+      fib = m + n;
+      document.write(fib + '<br>'+phong.toFixed(5));
+      m = n;
+      n = fib;
+    }
+    
+  }
+</script>
+</body>
+</html>
